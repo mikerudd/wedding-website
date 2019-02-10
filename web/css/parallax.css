@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.image-1, .image-2, .usher-image-1 {
+.image-1, .image-2, .usher-image-1, .usher-image-2 {
   position: relative;
   opacity: 0.75;
   background-attachment: fixed;
@@ -27,6 +27,12 @@ body, html {
 
 .usher-image-1 {
   background-image: url("../img/usher-cover.jpg");
+  opacity: 0.85;
+  min-height: 100%;
+}
+
+.usher-image-2 {
+  background-image: url("../img/ushers-pic-1.jpg");
   opacity: 0.85;
   min-height: 100%;
 }
@@ -55,6 +61,7 @@ body, html {
 }
 
 .list.border {
+  margin-top: 10px;
   padding: 6px;
   font-size: 18px;
   letter-spacing: 6px;
