@@ -5,7 +5,7 @@ body, html {
   color: #777;
 }
 
-.image-1, .image-2, .usher-image-1, .usher-image-2 {
+.splash-cover, .image-1, .image-2, .usher-image-1, .usher-image-2 {
   position: relative;
   opacity: 0.75;
   background-attachment: fixed;
@@ -14,6 +14,13 @@ body, html {
   background-size: cover;
 
 }
+
+.splash-cover {
+  background-image: url("../img/splash-cover-pic.jpg");
+  opacity: 0.95;
+  min-height: 100%;
+}
+
 .image-1 {
   background-image: url("../img/bous-pic-1.jpg");
   opacity: 0.85;
