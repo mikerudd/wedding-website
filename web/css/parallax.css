@@ -12,7 +12,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .splash-cover {
@@ -28,7 +27,7 @@ body, html {
 }
 
 .image-2 {
-  background-image: url("../img/bous-pic-3.jpg");
+  background-image: url("../img/bous-pic-2.jpg");
   min-height: 100%;
 }
 
@@ -62,7 +61,7 @@ body, html {
 }
 
 .block-text span.text.border {
-  padding: 6px;
+  padding: 10px;
   font-size: 18px;
   letter-spacing: 6px;
 }
@@ -83,8 +82,8 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+@media only screen and (max-device-width: 768px) {
+  .splash-cover, .image-1, .image-2, .usher-image-1, .usher-image-2 {
     background-attachment: scroll;
   }
 }
