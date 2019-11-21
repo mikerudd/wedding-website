@@ -1,0 +1,13 @@
+.address-text {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.address-text .address-time {
+    font-weight: bold;
+}
+
+.iframe-style {
+    margin-top: 20px;
+    border-radius: 20px;
+}
