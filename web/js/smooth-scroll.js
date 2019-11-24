@@ -4,3 +4,10 @@ $('a').click(function(){
     }, 2000);
     return false;
 });
+
+//close navbar when in collapsed view
+$(document).ready(function () {
+  $(".navbar-nav li a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});

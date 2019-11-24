@@ -1,3 +1,11 @@
+.accommodation-titles {
+    text-align: center;
+}
+
+.accommodation-link-style {
+    font-size: 12px;
+}
+
 .address-text {
     text-align: center;
     margin-bottom: 0;
@@ -5,7 +13,7 @@
 
 .address-text .address-time {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .iframe-style {
@@ -30,5 +38,9 @@
 
 .font-awesome-icon {
     font-size: 10em;
-     color: #999966
+     color: #999966;
+}
+
+.gift-list-button {
+    background-color: #999966;
 }
