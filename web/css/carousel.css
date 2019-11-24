@@ -35,7 +35,6 @@ body {
 }
 
 .carousel-image {
-  background-image: url("../img/splash-cover-pic.jpg");
   min-height: 100%;
   position: relative;
   /*opacity: 0.75;*/
@@ -43,6 +42,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.carousel-image-1 {
+  background-image: url("../img/splash-cover-pic.jpg");
+}
+
+.carousel-image-2 {
+  background-image: url("../img/japan-pic-01.jpg");
+}
+
+.carousel-image-3 {
+  background-image: url("../img/japan-pic-02.jpg");
 }
 
 
