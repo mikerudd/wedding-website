@@ -22,6 +22,10 @@ body {
   z-index: 10;
 }
 
+.carousel-text-shadow {
+    text-shadow: 2px 2px 8px #000000;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 95vh;
@@ -38,7 +42,7 @@ body {
   min-height: 100%;
   position: relative;
   /*opacity: 0.75;*/
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +57,7 @@ body {
 }
 
 .carousel-image-3 {
-  background-image: url("../img/japan-pic-02.jpg");
+  background-image: url("../img/japan-pic-03.jpg");
 }
 
 

@@ -4,7 +4,7 @@ $("button").click(function(event) {
     var validForm = $('#signin-form')[0].checkValidity();
     if(validForm){
         if(btoa($('#inputPassword').val()) === 'RGV2b24='){
-            window.location.href='/wedding';
+            window.location.href='/wedding.html';
         } else {
             $("#inputPassword").addClass("is-invalid");
         }
