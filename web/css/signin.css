@@ -51,3 +51,8 @@ body {
 .form-group:not(.has-error) .error-message {
   display: none !important;
 }
+
+.login-button {
+    background-color: #ac966d;
+    border-color: #ced4da;
+}
